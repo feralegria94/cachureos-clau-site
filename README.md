@@ -2,7 +2,7 @@
 
 Sitio web comercial para tienda de cachureos (artículos de papelería, hogar y vajilla) en Chiloé.
 
-**Demo:** Pendiente de deploy público
+**Demo:** https://claudiaventas.netlify.app/
 
 ## Qué es
 
