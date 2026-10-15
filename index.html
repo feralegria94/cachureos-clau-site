@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claudia Ventas – Loza, Menaje y Cachureos Europeos | Castro, Chiloé</title>
+  <meta name="description" content="Claudia Ventas: desde Vestuario Americano hasta lo más bello de Inglaterra en Chiloé. Loza, menaje y cachureos europeos vendidos por Claudia desde el 2023 por Facebook Live. Envíos a todo Chile y solo pago por transferencia." />
+  <meta name="keywords" content="cachureos, vajilla, cristalería, decoración, té, café, vintage, loza, porcelana, tesoros, regalos, cachureos europeos, tienda en Castro, Chiloé, Ancud, Dalcahue, Chonchi, Quellón, Quemchi, Achao, Curaco de Vélez, Puqueldón, Quinchao, Isla de Chiloé, Los Lagos, Chile, envíos a todo Chile" />
+  <meta name="author" content="Claudia Ventas" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2E1D4A" />
+  <meta name="geo.region" content="CL-LL" />
+  <meta name="geo.placename" content="Castro, Los Lagos, Chile" />
+  <meta name="geo.position" content="-42.4821;-73.7642" />
+  <meta name="ICBM" content="-42.4821, -73.7642" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Favicon & Social -->
+  <link rel="icon" type="image/png" href="assets/img/logo_clau.png">
+  <link rel="alternate" hreflang="es-CL" href="https://claudiaventas.netlify.app/" />
+  <link rel="alternate" hreflang="es" href="https://claudiaventas.netlify.app/" />
+  <link rel="alternate" hreflang="x-default" href="https://claudiaventas.netlify.app/" />
+  <meta property="og:site_name" content="Claudia Ventas">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Claudia Ventas – Loza, Menaje y Cachureos Europeos en Chiloé">
+  <meta property="og:description" content="Desde Vestuario Americano hasta lo más bello de Inglaterra en Chiloé. Vendemos por Facebook Live desde el 2023, con envíos a todo Chile y solo pago por transferencia.">
+  <meta property="og:image" content="assets/img/hero.webp">
+  <meta property="og:image:alt" content="Claudia Ventas – tesoros y vajilla seleccionada en Chiloé">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Claudia Ventas – Loza, Menaje y Cachureos Europeos en Chiloé">
+  <meta name="twitter:description" content="Desde Vestuario Americano hasta lo más bello de Inglaterra en Chiloé. Loza, menaje y cachureos europeos, con envíos a todo Chile y solo pago por transferencia.">
+  <meta name="twitter:image" content="assets/img/hero.webp">
+  <meta name="twitter:image:alt" content="Claudia Ventas – tesoros y vajilla seleccionada en Chiloé">
+
+  <!-- Schema.org: Tienda local -->
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Claudia Ventas",
+    "description": "Tienda de cachureos europeos, loza y menaje en Castro, Chiloé, Chile. Desde Vestuario Americano hasta lo más bello de Inglaterra en Chiloé. Vendemos por Facebook Live desde el 2023, con envíos a todo Chile y solo pago por transferencia.",
+    "url": "https://claudiaventas.netlify.app/",
+    "image": "https://claudiaventas.netlify.app/assets/img/hero.webp",
+    "email": "paredes.claudia2008@gmail.com",
+    "priceRange": "$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Castro",
+      "addressRegion": "Los Lagos",
+      "addressCountry": "CL"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -42.4821,
+      "longitude": -73.7642
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Castro"},
+      {"@type": "City", "name": "Ancud"},
+      {"@type": "City", "name": "Dalcahue"},
+      {"@type": "City", "name": "Chonchi"},
+      {"@type": "City", "name": "Quellón"},
+      {"@type": "City", "name": "Quemchi"},
+      {"@type": "City", "name": "Achao"},
+      {"@type": "City", "name": "Curaco de Vélez"},
+      {"@type": "City", "name": "Puqueldón"},
+      {"@type": "City", "name": "Quinchao"},
+      {"@type": "Country", "name": "Chile"}
+    ],
+    "sameAs": [
+      "https://www.facebook.com/clauchiloe"
+    ]
+  }
+  </script>
+
+  <!-- Canonical autorreferente (se adapta al dominio de producción) -->
+  <script>
+    var canon = document.createElement('link');
+    canon.rel = 'canonical';
+    canon.href = location.origin + location.pathname;
+    document.head.appendChild(canon);
+    var ogUrl = document.createElement('meta');
+    ogUrl.setAttribute('property', 'og:url');
+    ogUrl.content = location.origin + location.pathname;
+    document.head.appendChild(ogUrl);
+    // OG/Twitter imágenes absolutas (las redes sociales exigen URL completa)
+    ['og:image', 'twitter:image'].forEach(function(prop) {
+      var m = document.querySelector('meta[property="' + prop + '"], meta[name="' + prop + '"]');
+      if (m && m.content && m.content.indexOf('http') !== 0) {
+        m.content = location.origin + '/' + m.content.replace(/^\//, '');
+      }
+    });
+  </script>
+</head>
+
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    🚚 Envíos a todo Chile · <span>Solo pago por transferencia bancaria</span>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html#" class="nav-brand">
+      <img src="assets/img/logo_clau.png" alt="Claudia Ventas" class="nav-logo" />
+      <span class="brand-text">
+        <span class="brand-main">Claudia Ventas</span>
+        <span class="brand-sub">Tesoros y cachureos seleccionados</span>
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#catalogo">Catálogo</a></li>
+      <li><a href="index.html#categorias">Categorías</a></li>
+      <li><a href="index.html#origen">Origen</a></li>
+      <li><a href="index.html#nosotros">Nosotros</a></li>
+      <li><a href="envios.html">Envíos</a></li>
+    </ul>
+    <div class="nav-actions">
+
+      <button class="cart-btn" onclick="openCart()" aria-label="Carrito">
+        🛍️
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" onclick="toggleMobileMenu()" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-texture"></div>
+    <div class="hero-circle"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-up">Vendemos por Facebook Live desde el 2023</p>
+      <h1 class="fade-up fade-up-1">
+        Claudia Ventas<br /><em>Desde Vestuario Americano</em><br />hasta lo más bello de<br /><em>Inglaterra en Chiloé</em>
+      </h1>
+      <p class="fade-up fade-up-2">
+        Loza, menaje y cachureos europeos seleccionados con cariño desde los palafitos de Castro, directo a tu hogar en todo Chile.
+      </p>
+      <div class="hero-ctas fade-up fade-up-3">
+        <a href="index.html#catalogo" class="btn-primary">Ver Catálogo →</a>
+      </div>
+    </div>
+    <div class="hero-stats fade-up fade-up-4">
+      <div class="stat">
+        <span class="stat-num">+2k</span>
+        <span class="stat-lbl">Clientes</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">+500</span>
+        <span class="stat-lbl">Productos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">5★</span>
+        <span class="stat-lbl">Calificación</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER STRIP -->
+  <div class="banner-strip">
+    <div class="banner-track" id="bannerTrack">
+      <span class="banner-item">✦ Nuevos ingresos semanales</span>
+      <span class="banner-item">✦ Envíos a todo Chile</span>
+      <span class="banner-item">✦ Despacho por BlueExpress</span>
+      <span class="banner-item">✦ Solo pago por transferencia</span>
+      <span class="banner-item">✦ No se aceptan cambios ni devoluciones</span>
+
+      <span class="banner-item">✦ Nuevos ingresos semanales</span>
+      <span class="banner-item">✦ Envíos a todo Chile</span>
+      <span class="banner-item">✦ Despacho por BlueExpress</span>
+      <span class="banner-item">✦ Solo pago por transferencia</span>
+      <span class="banner-item">✦ No se aceptan cambios ni devoluciones</span>
+    </div>
+  </div>
+
+  <!-- BENEFITS -->
+  <section class="benefits-section" id="beneficios">
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>
+          <strong>Envíos a todo Chile</strong>
+          <span>Despachamos por <a href="envios.html" style="color:var(--accent);font-weight:600;">BlueExpress</a> a cualquier ciudad del país</span>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <div>
+          <strong>Pago por transferencia</strong>
+          <span>Solo se acepta transferencia bancaria</span>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-gem"></i>
+        <div>
+          <strong>Piezas únicas</strong>
+          <span>Selección cuidada, nada masivo</span>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-heart"></i>
+        <div>
+          <strong>Compra directa</strong>
+          <span>Trato directo con Claudia, sin intermediarios</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENVÍOS BLUEEXPRESS -->
+  <section class="shipping-section" id="envios">
+    <div class="shipping-container">
+      <div class="shipping-icon"><i class="fa-solid fa-box-open"></i></div>
+      <div class="shipping-content">
+        <h2 class="section-title">Envíos a todo Chile por BlueExpress</h2>
+        <p>Coordinamos el despacho de tus tesoros por <strong>BlueExpress</strong>, con empaque cuidadoso para que la loza y las piezas de porcelana lleguen en perfecto estado a tu hogar, en cualquier ciudad de Chile.</p>
+        <div class="shipping-ctas">
+          <a href="envios.html" class="btn-primary">¿Cómo funciona el envío? <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORIGEN: PALAFITOS + INGLATERRA -->
+  <section class="origins-section" id="origen">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">De Inglaterra a los palafitos de Chiloé</h2>
+        <p class="section-subtitle">Cachureos europeos con historia, que encuentran hogar en la isla</p>
+      </div>
+    </div>
+    <div class="origins-grid">
+      <div class="origin-card">
+        <div class="origin-card-bg" style="background:url('assets/img/palafito.webp') center/cover no-repeat"></div>
+        <div class="origin-overlay">
+          <span class="origin-tag">Chiloé · Palafitos de Castro</span>
+          <h3 class="origin-title">Nacimos entre palafitos</h3>
+          <p class="origin-text">Desde el borde del mar de Castro seleccionamos tesoros con cariño y te los llevamos a cualquier rincón de Chile.</p>
+        </div>
+      </div>
+      <div class="origin-card">
+        <div class="origin-card-bg" style="background:url('assets/img/tea_coffee.webp') center/cover no-repeat"></div>
+        <div class="origin-overlay">
+          <span class="origin-tag">Inglaterra · Origen de los cachureos</span>
+          <h3 class="origin-title">Un pedacito de Inglaterra</h3>
+          <p class="origin-text">Loza inglesa, porcelana fina y piezas con historia que cruzan el mundo para llegar a tu mesa y a tu vitrina.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="categorias">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Categorías</h2>
+        <p class="section-subtitle">Cachureos europeos, loza para tu mesa y un álbum de Varios</p>
+      </div>
+    </div>
+    <div class="categories-grid">
+      <div class="cat-card" onclick="filterByCategory('Cachureos Europeos')">
+        <div class="cat-bg" style="background: url('assets/img/tea_coffee.webp') center/cover no-repeat"></div>
+        <div class="cat-overlay">
+          <span class="cat-name">Cachureos Europeos</span>
+          <span class="cat-count">Loza, porcelana y tesoros de Europa</span>
+        </div>
+      </div>
+      <div class="cat-card" onclick="filterByCategory('Loza y Menaje')">
+        <div class="cat-bg" style="background: url('assets/img/vajilla.webp') center/cover no-repeat"></div>
+        <div class="cat-overlay">
+          <span class="cat-name">Loza y Menaje</span>
+          <span class="cat-count">Platos, tazas y loza para tu mesa</span>
+        </div>
+      </div>
+      <div class="cat-card" onclick="filterByCategory('Varios')">
+        <div class="cat-bg" style="background: url('assets/img/palafito.webp') center/cover no-repeat"></div>
+        <div class="cat-overlay">
+          <span class="cat-name">Álbum Varios</span>
+          <span class="cat-count">Tesoros y hallazgos de todo tipo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CATALOG -->
+  <section class="catalog-section" id="catalogo">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Catálogo</h2>
+        <p class="section-subtitle">Más de 500 productos seleccionados</p>
+      </div>
+      <div style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+        <span style="font-size:.8rem;color:var(--muted)">Ordenar:</span>
+        <select id="sortSelect" onchange="sortProducts()"
+          style="border:1.5px solid var(--border);border-radius:8px;padding:.35rem .7rem;font-size:.78rem;background:var(--surface);color:#F3EDE0;font-family:var(--font-body);cursor:pointer;outline:none;color-scheme:dark;">
+          <option value="default">Destacados</option>
+          <option value="price-asc">Menor precio</option>
+          <option value="price-desc">Mayor precio</option>
+          <option value="name">Nombre A-Z</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;margin-bottom:2rem">
+      <input type="search" id="searchInput" placeholder="🔍 Buscar por nombre..."
+        style="flex:1;max-width:420px;padding:.5rem .8rem;border:1.5px solid var(--border);border-radius:8px;background:var(--surface);color:#F3EDE0;font-family:var(--font-body);font-size:.8rem;outline:none;" />
+    </div>
+
+    <!-- Carrusel 1: Cachureos Europeos -->
+    <div class="carousel-block" id="bloque-ce">
+      <h3 class="carousel-block-title">Cachureos Europeos</h3>
+      <div class="products-grid" id="productsGrid-ce"></div>
+      <div class="carousel-progress" id="carouselProgress-ce">
+        <div class="carousel-progress-bar" id="carouselProgressBar-ce"></div>
+      </div>
+    </div>
+
+    <!-- Carrusel 2: Loza y Menaje -->
+    <div class="carousel-block" id="bloque-lym">
+      <h3 class="carousel-block-title">Loza y Menaje</h3>
+      <div class="products-grid" id="productsGrid-lym"></div>
+      <div class="carousel-progress" id="carouselProgress-lym">
+        <div class="carousel-progress-bar" id="carouselProgressBar-lym"></div>
+      </div>
+    </div>
+
+    <!-- Carrusel 3: Álbum Varios -->
+    <div class="carousel-block" id="bloque-varios">
+      <h3 class="carousel-block-title">Varios</h3>
+      <div class="products-grid" id="productsGrid-varios"></div>
+      <div class="carousel-progress" id="carouselProgress-varios">
+        <div class="carousel-progress-bar" id="carouselProgressBar-varios"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- NOSOTROS (ABOUT) -->
+  <section id="nosotros" class="about-section">
+    <div class="about-container">
+      <img class="about-img" src="/assets/img/logo_clau.png?v=4" alt="Logo Claudia Ventas" />
+      <div class="about-content">
+        <h2 class="section-title">Nuestra Historia</h2>
+        <p class="about-tagline">Desde Vestuario Americano hasta lo más bello de Inglaterra en Chiloé</p>
+        <p>En <strong>Claudia Ventas</strong> buscamos tesoros europeos y loza con historia para llevarlos desde los palafitos de Castro hasta tu hogar, en cualquier rincón de Chile. Cada pieza llega seleccionada con cariño, pensando en tu mesa y en esos detalles que la hacen única.</p>
+        <p>Loza y porcelana clásica, servicios de té y cachureos que cruzaron el océano desde Inglaterra y Europa: piezas que cuentan historias y que no vas a encontrar en otro lado. Claudia vende desde el año 2023 por LIVE de Facebook, mostrando cada tesoro en directo para que lo veas antes de comprarlo. La compra es directa con Claudia, con pago por transferencia bancaria y envíos a todo Chile.</p>
+        <div class="about-features">
+          <div class="feat-item">
+            <span class="feat-icon">🔎</span>
+            <span>Piezas únicas</span>
+          </div>
+          <div class="feat-item">
+            <span class="feat-icon">📺</span>
+            <span>Ventas en vivo por Facebook Live desde el 2023</span>
+          </div>
+          <div class="feat-item">
+            <span class="feat-icon">🏡</span>
+            <span>Selección con cariño</span>
+          </div>
+          <div class="feat-item">
+            <span class="feat-icon">🚢</span>
+            <span>Directo a tu hogar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS MR.COM -->
+  <section class="moon-section" id="servicios">
+    <div class="moon-container">
+      <div class="moon-icon"><i class="fa-solid fa-laptop-code"></i></div>
+      <div class="moon-content">
+        <h2 class="section-title">¿Necesitas una página web o software a medida?</h2>
+        <p><strong>MR.COM Soluciones</strong> desarrolla páginas web profesionales, tiendas online y sistemas a medida para negocios en Chiloé: e-commerce, automatización, seguridad, gestión y mucho más. Tu idea, hecha realidad.</p>
+        <div class="moon-ctas">
+          <a href="https://mrcomsoluciones.cl" target="_blank" rel="noopener" class="btn-primary">Cotiza tu proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://wa.me/56975177638?text=Hola%20MR.COM!%20Quiero%20cotizar%20una%20p%C3%A1gina%20web%20o%20software%20a%20medida" target="_blank" rel="noopener" class="btn-ghost"><i class="fa-brands fa-whatsapp"></i> Hablemos por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonials-section" id="testimonios">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <p class="section-subtitle">Experiencias reales de la Isla de Chiloé</p>
+      </div>
+    </div>
+    <div class="testimonials-grid">
+      <figure class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <blockquote>“Encontré la vajilla clásica que buscaba hace tiempo. Llegó impecable y súper rápido a Dalcahue.”</blockquote>
+        <figcaption>
+          <span class="t-name">María F.</span>
+          <span class="t-loc">Dalcahue</span>
+        </figcaption>
+      </figure>
+      <figure class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <blockquote>“Piezas únicas y atención de primer nivel. Todo claro y directo. Muy recomendado.”</blockquote>
+        <figcaption>
+          <span class="t-name">Juan C.</span>
+          <span class="t-loc">Castro</span>
+        </figcaption>
+      </figure>
+      <figure class="testimonial-card">
+        <div class="t-stars">★★★★★</div>
+        <blockquote>“El set de té que compré es hermoso. Se nota que cada producto está elegido con cariño.”</blockquote>
+        <figcaption>
+          <span class="t-name">Carolina V.</span>
+          <span class="t-loc">Ancud</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-section">
+    <div class="cta-box">
+      <h2>¿Buscas un tesoro especial?</h2>
+      <p>Escríbenos por correo y te ayudamos a encontrar la pieza perfecta. Pago por transferencia bancaria y envíos a todo Chile.</p>
+      <a href="mailto:paredes.claudia2008@gmail.com?subject=Hola%20Claudia%20Ventas%2C%20busco%20una%20pieza%20especial" class="btn-primary btn-mail">
+        <i class="fa-solid fa-envelope"></i> Escríbenos por correo
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/img/logo_clau.png" alt="Claudia Ventas" class="footer-logo" />
+          <div>
+            <div class="footer-brand-main">Claudia Ventas</div>
+            <div class="footer-brand-sub">Tesoros y cachureos seleccionados</div>
+          </div>
+        </div>
+        <p class="footer-desc">Loza, menaje y cachureos europeos seleccionados con cariño desde Castro, Chiloé, para tu hogar en todo Chile.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/clauchiloe" target="_blank" class="social-btn" title="Facebook"><i
+              class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Tienda</h5>
+        <ul>
+          <li><a href="index.html#catalogo">Catálogo</a></li>
+          <li><a href="index.html#categorias">Categorías</a></li>
+
+          <li><a href="index.html#origen">Palafitos e Inglaterra</a></li>
+          <li><a href="index.html#beneficios">Envíos a todo Chile</a></li>
+          <li><a href="envios.html">Cómo funciona el envío (BlueExpress)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Ayuda</h5>
+        <ul>
+          <li><a href="index.html#catalogo">Cómo comprar</a></li>
+          <li><a href="envios.html">Envíos por BlueExpress</a></li>
+          <li><a href="index.html#beneficios">Envíos a todo Chile</a></li>
+          <li><span style="color:rgba(255,255,255,.5);font-size:.82rem;cursor:default;">No se aceptan cambios ni devoluciones</span></li>
+          <li><a href="mailto:paredes.claudia2008@gmail.com">Preguntas frecuentes</a></li>
+          <li><a href="mailto:paredes.claudia2008@gmail.com">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Compra directa</h5>
+        <ul>
+          <li><span style="color:rgba(255,255,255,.5);font-size:.82rem;cursor:default;">Solo pago por transferencia</span></li>
+          <li><a href="index.html#testimonios">Testimonios</a></li>
+          <li><a href="index.html#nosotros">Nosotros</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contacto</h5>
+        <ul>
+          <li><a href="mailto:paredes.claudia2008@gmail.com">paredes.claudia2008@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Claudia Ventas. Todos los derechos reservados.</span>
+      <span>Hecho con <span style="color:#e05d5d">♥</span> en Chiloé · por <a href="https://mrcomsoluciones.cl" target="_blank" rel="noopener" style="color:rgba(255,255,255,.65); text-decoration:none;">MR.COM Soluciones</a> · <a href="index.html#"
+          style="color:rgba(255,255,255,.4); text-decoration:none;">Privacidad</a> · <a href="index.html#"
+          style="color:rgba(255,255,255,.4); text-decoration:none;">Términos</a></span>
+    </div>
+  </footer>
+
+  <!-- CART OVERLAY + SIDEBAR -->
+  <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-head">
+      <h3>Tu carrito 🛍️</h3>
+      <button class="cart-close" onclick="closeCart()">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty">
+        <div class="cart-empty-icon">🛒</div>
+        <h4>Tu carrito está vacío</h4>
+        <p>Explora el catálogo y agrega los productos que más te gusten.</p>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">$0</span>
+      </div>
+      <div class="cart-subtotal">
+        <span>Envío a todo Chile</span>
+        <span style="color:#6B3FA0">Según destino</span>
+      </div>
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cartTotal">$0</span>
+      </div>
+      <p style="font-size:.72rem;color:var(--muted);line-height:1.5;margin-bottom:.8rem;text-align:center;">
+        Solo pago por transferencia bancaria. No se aceptan cambios ni devoluciones.
+      </p>
+      <button class="btn-checkout" onclick="checkout()">Comprar por transferencia</button>
+    </div>
+  </aside>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal" id="productModal">
+      <div class="modal-img" id="modalImg"></div>
+      <div class="modal-body" style="position:relative;">
+        <button class="modal-close" onclick="closeModalDirect()">✕</button>
+        <span class="modal-cat" id="modalCat"></span>
+        <h3 class="modal-name" id="modalName"></h3>
+        <p class="modal-price" id="modalPrice"></p>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-qty">
+          <span style="font-size:.82rem; color:var(--muted); font-weight:500;">Cantidad:</span>
+          <div class="modal-qty-ctrl">
+            <button class="modal-qty-btn" onclick="changeModalQty(-1)">−</button>
+            <span class="modal-qty-num" id="modalQtyNum">1</span>
+            <button class="modal-qty-btn" onclick="changeModalQty(1)">+</button>
+          </div>
+        </div>
+        <button class="btn-cart" style="margin-top:auto; padding:.8rem; border-radius:10px; font-size:.88rem;"
+          onclick="addFromModal()">
+          🛍️ Agregar al carrito
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay" onclick="toggleMobileMenu()"></div>
+  <aside class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-head">
+      <div class="nav-brand">
+        <img src="assets/img/logo_clau.png" alt="Claudia Ventas" class="nav-logo" />
+        <span class="brand-text">
+          <span class="brand-main">Claudia Ventas</span>
+          <span class="brand-sub">Tesoros y cachureos seleccionados</span>
+        </span>
+      </div>
+      <button class="menu-close" onclick="toggleMobileMenu()">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html#catalogo" onclick="toggleMobileMenu()">Catálogo</a></li>
+      <li><a href="index.html#categorias" onclick="toggleMobileMenu()">Categorías</a></li>
+      <li><a href="index.html#origen" onclick="toggleMobileMenu()">Palafitos e Inglaterra</a></li>
+      <li><a href="envios.html" onclick="toggleMobileMenu()">Envíos por BlueExpress</a></li>
+      <li><a href="index.html#nosotros" onclick="toggleMobileMenu()">Nosotros</a></li>
+      <li><a href="index.html#testimonios" onclick="toggleMobileMenu()">Testimonios</a></li>
+      <li><a href="appadmin/login.html" onclick="toggleMobileMenu()" style="border-top:1px solid var(--border);padding-top:1.2rem;margin-top:.6rem;font-size:1.1rem;color:var(--gold-soft)"><i class="fa-solid fa-user-lock"></i> Panel de Claudia</a></li>
+    </ul>
+    <div class="mobile-menu-footer">
+      <p>Síguenos en redes:</p>
+      <div class="footer-social" style="justify-content: center; margin-top: 1rem;">
+        <a href="https://www.facebook.com/clauchiloe" target="_blank" class="social-btn"><i
+            class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- TOAST -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

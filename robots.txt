@@ -1,0 +1,5 @@
+# robots.txt — Claudia Ventas
+User-agent: *
+Allow: /
+
+Sitemap: https://claudiaventas.netlify.app/sitemap.xml
